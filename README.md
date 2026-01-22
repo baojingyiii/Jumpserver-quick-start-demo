@@ -2,20 +2,20 @@
 开源堡垒机JumpServer学习
 
 ## 🤔 组件
-| Component  | Description |
-|------------|-------------|
-| Core       | JumpServer Core 相当于后端|
-| Lina       | JumpServer Web UI 相当于前端|
-| Luna       | JumpServer Web Terminal（终端） |
-| KoKo       | JumpServer Character Protocol Connector（字符协议连接器）ssh连接器 |
-| Lion       | JumpServer Graphical Protocol Connector（图形协议连接器）Windows远程桌面 |
-| Chen       | JumpServer Web DB（数据库） |
-| Tinker     | JumpServer Remote Application Connector (Windows)（Windows应用程序连接器） |
-| Panda      | JumpServer EE Remote Application Connector (Linux)（Linux应用程序连接器） |
-| Razor      | JumpServer EE RDP Proxy Connector（RDP代理连接器） |
-| Magnus     | JumpServer EE Database Proxy Connector（数据库代理连接器） |
-| Nec        | JumpServer EE VNC Proxy Connector（VNC代理连接器） |
-| Facelive   | JumpServer EE Facial Recognition（面部识别） |
+| Component  | Description | 理解 |
+|------------|-------------|------|
+| **Core**       | JumpServer Core | 相当于后端 |
+| **Lina**       | JumpServer Web UI | 相当于前端 |
+| **Luna**       | JumpServer Web Terminal | 终端 |
+| **KoKo**       | JumpServer Character Protocol Connector（字符协议连接器） | ssh连接器 |
+| **Lion**       | JumpServer Graphical Protocol Connector（图形协议连接器） | Windows远程桌面 |
+| Chen       | JumpServer Web DB | 数据库 |
+| Tinker     | JumpServer Remote Application Connector (Windows) | Windows应用程序连接器 |
+| Panda      | JumpServer EE Remote Application Connector (Linux) | Linux应用程序连接器 |
+| Razor      | JumpServer EE RDP Proxy Connector |（RDP代理连接器）|
+| Magnus     | JumpServer EE Database Proxy Connector |（数据库代理连接器）|
+| Nec        | JumpServer EE VNC Proxy Connector |（VNC代理连接器）|
+| Facelive   | JumpServer EE Facial Recognition |（面部识别）|
 
 ```
 1. Core - 核心后端 ✅ 必须
