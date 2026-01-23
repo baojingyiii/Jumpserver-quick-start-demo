@@ -265,8 +265,8 @@ CURRENT_VERSION=
 **⚠️ 安全提醒：首次登录后请立即修改默认密码！**
 
 ## 📊 效果截图
-![jumpserver-login](./images/jumpserver-login)
-![jumpserver-console](./images/jumpserver-console)
+![jumpserver-login](./images/jumpserver-login.png)
+![jumpserver-console](./images/jumpserver-console.png)
 
 ------
 
