@@ -4,11 +4,11 @@
 ## 🤔 组件
 | Component  | Description | 理解 |
 |------------|-------------|------|
-| **Core**       | JumpServer Core | 相当于后端 |
-| **Lina**       | JumpServer Web UI | 相当于前端 |
-| **Luna**       | JumpServer Web Terminal | 终端 |
-| **KoKo**       | JumpServer Character Protocol Connector（字符协议连接器） | ssh连接器 |
-| **Lion**       | JumpServer Graphical Protocol Connector（图形协议连接器） | Windows远程桌面 |
+| **Core**   | JumpServer Core | 相当于后端 |
+| **Lina**   | JumpServer Web UI | 相当于前端 |
+| **Luna**   | JumpServer Web Terminal | 终端 |
+| **KoKo**   | JumpServer Character Protocol Connector（字符协议连接器） | ssh连接器 |
+| **Lion**   | JumpServer Graphical Protocol Connector（图形协议连接器） | Windows远程桌面 |
 | Chen       | JumpServer Web DB | 数据库 |
 | Tinker     | JumpServer Remote Application Connector (Windows) | Windows应用程序连接器 |
 | Panda      | JumpServer EE Remote Application Connector (Linux) | Linux应用程序连接器 |
@@ -44,3 +44,20 @@
 如果要远程Windows服务器，就需要这个
 纯Linux环境可以不用
 ```
+
+#### 新版的jumpserver使用webWeb容器集成Nginx + Lina(前端界面) + Luna(Web终端)
+```
+旧版本 (v2.x):
+├── jms_nginx (Nginx反向代理)
+├── jms_lina  (Vue前端界面)
+├── jms_luna  (Web终端)
+└── jms_core  (后端API)
+
+新版本 (v4.x):
+├── jms_web   (Nginx + Lina + Luna 三合一)
+├── jms_core  (后端API)
+└── 其他连接器
+```
+
+## 快速部署jumpserver
+从飞致云社区 **[下载最新的 linux/amd64 离线包](https://community.fit2cloud.com/#/products/jumpserver/downloads)** , 并上传到部署服务器的 /opt 目录
